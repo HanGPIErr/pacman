@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+  }
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: yellow;
+  }
+#grille {
+    display: grid;
+    grid-template-columns: repeat(19,40px);
+    grid-template-rows: repeat(22,40px);
+    width: fit-content;
+}
+.mur {
+    background-image: url(./img/mur.gif);
+}
+.sol {
+    background-image: url(./img/sol.gif);
+}
+.bonbon {
+    background-image: url(./img/bonbon.gif);
+}
+.pacman {
+    background-image: url(./img/pacman4.gif);
+}
