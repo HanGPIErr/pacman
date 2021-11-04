@@ -1,12 +1,43 @@
 body {
     background-color: black;
+    transition-duration: 100ms, 50ms;
+    transition-property: margin-right, color;
   }
 h1 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     color: yellow;
   }
+#rejouer {
+    font-family: 'Permanent Marker', cursive;
+    margin-right: 500px;
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #score {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    width: 500px;
+    height: 200px;
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+    box-shadow: 5px  5px 5px white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rejouer {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     width: 500px;
@@ -42,6 +73,15 @@ h1 {
 .pacman {
     background-image: url(./img/pacman4.gif);
 }
-.fantomebleu {
+.fantome0 {
     background-image: url(./img/fantome_bleu1.gif);
+}
+.fantome1 {
+    background-image: url(./img/fantome_rouge1.gif);
+}
+.fantome2 {
+    background-image: url(./img/fantome_orange1.gif);
+}
+.fantome3 {
+    background-image: url(./img/fantome3.gif);
 }
